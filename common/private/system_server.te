@@ -1,5 +1,7 @@
 set_prop(system_server, shell_prop)
 
+allow system_server storage_stub_file:dir getattr;
+
 allow system_server adbroot_service:service_manager find;
 
 # Use HALs
