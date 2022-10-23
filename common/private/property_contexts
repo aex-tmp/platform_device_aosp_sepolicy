@@ -2,8 +2,9 @@ persist.wfd.legacy.video.mode          u:object_r:exported_system_prop:s0
 media.wfd.                             u:object_r:media_wfd_prop:s0
 
 # Aux camera
-vendor.camera.aux.packageexcludelist   u:object_r:exported_system_prop:s0
-vendor.camera.aux.packagelist          u:object_r:exported_system_prop:s0
+vendor.camera.aux.packageexcludelist   u:object_r:vendor_persist_camera_prop:s0
+vendor.camera.aux.packagelist          u:object_r:vendor_persist_camera_prop:s0
+vendor.camera.skip_unconfigure.packagelist  u:object_r:vendor_persist_camera_prop:s0
 
 # Themed Bootanimation
 persist.bootanim.color1     u:object_r:bootanim_system_prop:s0
